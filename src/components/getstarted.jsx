@@ -1,5 +1,5 @@
 import { arrowUp } from "@/assets";
-import Image from "next/Image";
+import Image from "next/image";
 
 const GetStarted = () => (
   <div
@@ -10,7 +10,7 @@ const GetStarted = () => (
     >
       <div className={`flex justify-center items-start flex-row`}>
         <p className="font-poppins font-medium text-[18px] leading-[23.4px]">
-          <span className="text-[#39bfd2]">Get</span>
+          <span className="text-secondary">Get</span>
         </p>
         <Image
           src={arrowUp}
